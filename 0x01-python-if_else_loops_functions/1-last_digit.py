@@ -6,6 +6,6 @@ message = f"Last digit of {number} is {last_digt}"
 if (last_digt > 5):
     print(f"{message} and is greater than 5")
 elif (last_digt == 0):
-    print(f"{message} and is zero")
+    print(f"{message} and is 0")
 elif (last_digt < 6) and (last_digt != 0):
     print(f"{message} and is less than 6 and not 0")
